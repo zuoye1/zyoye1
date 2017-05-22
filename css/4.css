@@ -1,0 +1,164 @@
+body{
+    background-color: #f7f7f7;
+    position: relative;
+    height: 13.09rem;
+}
+#register{
+    width:100%;
+    height: auto;
+    font-family: "苹方";
+}
+#register .line{
+    width: 100%;
+    height: 0.03rem;
+    background-image: url("../img/gj_line.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#register .head{
+    width:100%;
+    height: 0.88rem;
+    background-color: #fd313a;
+    text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    position: relative;
+}
+#register .head h3{
+    margin: 0 auto;
+    width: 2rem;
+    font-size: 0.4rem;
+    font-weight: normal;
+}
+#register .head .cancel{
+    position: absolute;
+    float: left;
+    font-size: 0.2rem;
+    margin-left: 0.25rem;
+}
+.mobilenum,.yanzhengnum{
+    width:100%;
+    height: 0.74rem;
+    background: #fff;
+    margin-top: 0.3rem;
+    position: relative;
+    font-size: 0.24rem;
+}
+.yanzhengnum{
+    margin-top:0.05rem;
+}
+ input{
+    width:85%;
+    height: 100%;
+    float: left;
+    border: none;
+}
+ .number{
+     width:65%;
+ }
+ input[type=text]:focus{
+    outline: none;
+ }
+::-webkit-input-placeholder {
+    color: #c8c8c8;
+    font-size: 0.24rem;
+    line-height: 0.74rem;
+}
+.mobile{
+    font-size: 0.24rem;
+    float: left;
+    width:15%;
+    line-height:0.74rem;
+    text-align: center;
+    font-weight: 700;
+}
+.getYanzhengma{
+    width:20%;
+    float: right;
+    line-height: 0.74rem;
+    text-align: center;
+    color: #c8c8c8;
+}
+.btn{
+    width:100%;
+    height: 1.8rem;
+    padding-top: 0.26rem;
+}
+.btn .next{
+    display: block;
+    width: 5.59rem;
+    height: 0.64rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(to right,#ff304f,#fe4946,#fd6d39,#fd8033);
+    margin: 0 auto;
+    font-size: 0.24rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.64rem;
+    border:3px solid #fff;
+    box-shadow:0.02rem 0.02rem 0.02rem #f2f2f2 ;
+    position: relative;
+
+}
+.btn .circle1{
+    width:0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #fff;
+    border:0.03rem solid #fd7172;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin: auto;
+    left: 1.84rem;
+    box-sizing:content-box;
+}
+.btn .circle2{
+    width:0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #fff;
+    border:0.03rem solid #fd7172;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin: auto;
+    right: 1.84rem;
+    box-sizing:content-box;
+}
+.mobileLogin{
+    text-align: center;
+    font-size: 0.2rem;
+    color: #d8d8d8;
+    margin-top:0.27rem;
+}
+.mobileLogin .text{
+    width:1.49rem;
+    height: 0.24rem;
+    display: block;
+    margin: auto;
+}
+.text span{
+    float: left;
+}
+.yuan{
+    width: 0.07rem;
+    height: 0.07rem;
+    border-radius: 0.07rem;
+    background: #fe346a;
+    float: left;
+    margin-top:0.08rem;
+    margin-left: 0.08rem;
+
+}
+.bottom{
+    width:100%;
+    position: absolute;
+    left:0;
+    right: 0;
+    margin: auto;
+    bottom:1.27rem;
+    font-size: 0.24rem;
+    padding: 0 0.52rem;
+    color: #d2d2d2;
+}
