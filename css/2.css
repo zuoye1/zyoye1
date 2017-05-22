@@ -1,0 +1,185 @@
+header{
+	width: 100%;
+	height: 0.87rem;
+	background: #fc313a;
+	position: relative;
+}
+body{
+	height: 13.4rem;
+	background: #f7f7f7;
+	position: relative;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "苹方";
+}
+
+.lq_top{
+	width:100%;
+	background: #fc313a;
+	margin-bottom: 0.33rem;
+	height: 0.88rem;
+	background-color: #fd313a;
+	text-align: center;
+	line-height: 0.88rem;
+	color: #fff;
+}
+.lq_contain{
+	width: 0.96rem;
+	height: 0.88rem;
+	text-align: center;
+	line-height: 0.88rem;
+	font-size: 0.18rem;
+	color: #fff;
+	float: left;
+}
+.lq_top h3{
+	/*width:5.50rem;
+	height: 0.88rem;*/
+	margin: 0 auto;
+	width: 2rem;
+	font-size: 0.4rem;
+	font-weight: normal;
+	text-align: center;
+	line-height: 0.88rem;
+	font-size: 0.36rem;
+	color: #ffffff;
+	font-weight: 400;
+}
+/*输入手机号*/
+.main{
+	margin-top: 0.3rem;
+	width: 100%;
+}
+.lq_sj{
+	width: 100%;
+	height: 0.72rem;
+	background: #fff;
+}
+.main2{
+	margin-top: 0.02rem;
+	width: 100%;
+	height: 0.72rem;
+	background: #fff;
+}
+.lq_sjh{
+	width: 11%;
+	height: 100%;
+	font-size: 0.17rem;
+	color: #000;
+	line-height: 0.72rem;
+	float: left;
+	padding-left: 0.25rem;
+}
+input{
+	width: 89%;
+	height: 100%;
+	display: block;
+	float: left;
+	color: #b3b3b3;
+	font-size: 0.17rem;
+	border: 0;
+	/*position: relative;*/
+	padding-left: 0.18rem;
+}
+
+::-webkit-input-placeholder {
+    color: #c9c9c9;
+    font-size: 0.24rem;
+    line-height: 0.55rem;
+}
+.img{
+	width: 0.1rem;
+	height: 0.76rem;
+	text-align: center;
+	line-height: 0.76rem;
+}
+.lq_img1{
+	position: absolute;
+	line-height: 0.76rem;
+	right: 0.3rem;
+	 top: 2.19rem;
+	text-align: center;
+	line-height: 0.76rem;
+}
+/*下一步*/
+.lq_xiayi{
+	width: 5.68rem;
+	height: 0.73rem;
+	border-radius: 0.3rem;
+	margin: 0 auto;
+	background: #fff;
+	margin-top: 0.3rem;
+	padding-top: 0.04rem;
+	position: relative;
+}
+.lq_xiayi1{
+	width: 5.6rem;
+	height: 0.65rem;
+	border-radius: 0.3rem;
+	margin: 0 auto;
+	background:-webkit-linear-gradient(left,#ff2f50,#fd8132); 
+	/*box-shadow:0.02rem 0.02rem  #eaeaea ;*/
+
+	position: relative;
+}
+.dian1,.dian2{
+	width: 0.12rem;
+	height: 0.12rem;
+	background: rgba(255,255,255,0.3);
+	position: absolute;
+	top: 0.26rem;
+	border-radius: 50%;
+	padding-top: 0.03rem;
+}
+.lq_xiayi1 p{
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.65rem;
+	color: #fff;
+}
+.dian1{
+	left: 1.84rem;
+}
+.dian2{
+	right: 1.84rem;
+}
+.dian11{
+	width: 0.06rem;
+	height: 0.06rem;
+	border-radius: 50%;
+	background: #fff;
+	margin: 0 auto;
+}
+/* 手机快捷登陆*/
+.lq_denlu{
+	height: 0.3rem;
+	padding-left: 2.99rem;
+	margin-top: 0.29rem;
+}
+.lq_denlu p{
+	float: left;
+	font-size: 0.2rem;
+	color: #d8d8d8;
+}
+.lq_denlu .dian3{
+	width: 0.09rem;
+	height: 0.09rem;
+	border-radius: 50%;
+	background: #fe346a;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.08rem;
+}
+/*结尾*/
+footer{
+	padding-left: 0.52rem;
+	padding-right: 0.52rem;
+	color: #a9a9a9;
+	font-size: 0.19rem;
+	line-height: 0.3rem;
+	position: absolute;
+	bottom: 1.3rem;
+}
