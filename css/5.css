@@ -1,0 +1,34 @@
+body{
+	background-color: #f7f7f7;
+}
+#register{
+	width:100%;
+	height: auto;
+	font-family: "苹方";
+}
+#register .line{
+	width: 100%;
+	height: 0.01rem;
+	background-color: #dcdcdc;
+}
+#register .head{
+	width:100%;
+	height: 1rem;
+	background-color: #fd313a;
+	text-align: center;
+	line-height: 1rem;
+	color: #fff;
+	position: relative;
+}
+#register .head h3{
+	margin: 0 auto;
+	width: 2rem;
+	font-size: 0.4rem;
+	font-weight: normal;
+}
+#register .head .cancel{
+	position: absolute;
+	float: left;
+	font-size: 0.2rem;
+	margin-left: 0.25rem;
+}
