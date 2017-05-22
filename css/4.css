@@ -7,8 +7,13 @@ body{
     width:100%;
     height: auto;
     font-family: "苹方";
+    position: relative;
 }
 #register .line{
+    position: absolute;
+    top: 0.02rem;
+    left: 0;
+    z-index: 2;
     width: 100%;
     height: 0.03rem;
     background-image: url("../img/gj_line.png");
